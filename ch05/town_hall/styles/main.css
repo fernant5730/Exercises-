@@ -66,6 +66,8 @@ main {
 
 /* the styles for the footer */
 footer { background-color: var(--accent-color);
+	font-color: white;
+	padding: .5em;
 	& p {
 		text-align: center;
 	}
