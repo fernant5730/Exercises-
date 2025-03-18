@@ -6,8 +6,7 @@
 /* default styles */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-	background-color: blueviolet;
+    font-size: 20%;
 }
 a:hover, a:focus{
 	font-style: italic;
