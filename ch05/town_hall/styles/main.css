@@ -1,8 +1,5 @@
 /* custom property */
-*{
-	margin: 0;
-	padding: 0;
-}
+
 :root {
 	--accent-color: #800000;  /* could also be coded #800 */
 }
