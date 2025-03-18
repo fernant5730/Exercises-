@@ -25,6 +25,7 @@ h1 {
 	padding-top: .5em;
 	padding-bottom: .5em;
 	font-size: 150%;
+	border-bottom: 2px solid var(--accent-color);
 }
 h2 {
 	padding-top: .5em;
@@ -64,7 +65,7 @@ main {
 }
 
 /* the styles for the footer */
-footer {
+footer { background-color: var(--accent-color);
 	& p {
 		text-align: center;
 	}
