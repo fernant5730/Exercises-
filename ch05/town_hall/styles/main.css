@@ -89,7 +89,7 @@ main {
 }
 
 /* the styles for the footer */
-footer { background-color: var(--accent-color);
+footer { background-color: var(#800000)
 	color: white;
 	padding: .5em;
 	& p {
