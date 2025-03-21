@@ -54,22 +54,17 @@ img {
 
 /* the styles for the header */
 header {
-	background-color:linear -gradient (#f6bb73,0%,white,30%, white 75%, #f6bb73, 100% at the 30%angle);
-	& h2 {
-		font-size: 175%;
-		
-	}
-	& h3 {
-		font-size: 130%;
-		font-style: italic;
-		
-	}
-	& img {
-		float: left;
-
-	
-		}
-	
+	background: linear-gradient(#f6bb73 0%, white 30%, white 75%, #f6bb73 100%);
+}
+header h2 {
+	font-size: 175%;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+header img {
+	float: left;
 }
 
 /* the styles for the main content */
@@ -78,30 +73,29 @@ main {
 	padding-right: 1em;
 	padding-left: 1em;
 	padding-bottom: 1em;
-	img { border: double 4px var(--accent-color);
-		
-	}
-	blockquote {
-		font-style: italic;
-		font-size: 110%;
-		padding: .5em;
-		
+main {
+	clear: left;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
 }
-
-/* the styles for the footer */
-footer { background-color: var(--accent-color);
-	
+main img {
+	border: double 4px var(--accent-color);
+}
+main blockquote {
+	font-style: italic;
+	font-size: 110%;
 	padding: .5em;
+}
 	& p {
 		text-align: center;
-		padding-top: 1em;
-		padding-bottom: 1em;
-		color: white;
-
-	}
+footer {
+	background-color: var(--accent-color);
+	padding: .5em;
 }
-
-/* CSS class */
-.large {
-	font-size: 125%;
+footer p {
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: white;
 }
