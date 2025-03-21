@@ -63,8 +63,8 @@ header h3 {
 	font-size: 130%;
 	font-style: italic;
 }
-header img {
-	}
+header img {padding: 1em;}
+	
 
 /* the styles for the main content */
 main {
