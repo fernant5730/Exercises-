@@ -29,12 +29,12 @@ h1 {
 }
 h2 {
 	padding-top: .5em;
-	padding-bottom: .5em;
+	padding-bottom: 0m;
 	font-size: 130%;
 	color: var(--accent-color);
 }
 h3 {padding-top: .5em;
-	padding-bottom: .5em;
+	padding: bottom 1em;
 	font-size: 105%;
 }
 p{padding-top: .5em;
@@ -42,6 +42,15 @@ padding-bottom: .5em;}
 ul{padding-top: .5em;
 padding-bottom: .5em;
 padding-left:2em ;}
+
+img {
+	border: 1px solid var(--accent-color);
+	border-radius: 10px;
+	margin-right: 1em;
+	margin-bottom: 1em;
+  margin-top: .75em;
+ margin-bottom: .75em;
+}
 
 /* the styles for the header */
 header {
@@ -62,6 +71,9 @@ header {
 /* the styles for the main content */
 main {
 	clear: left;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
 }
 
 /* the styles for the footer */
