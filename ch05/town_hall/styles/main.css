@@ -54,6 +54,7 @@ img {
 
 /* the styles for the header */
 header {
+	background-color:linear -gradient (#f6bb73,0%,white,30%, white 75%, #f6bb73, 100% at the 30%angle);
 	& h2 {
 		font-size: 175%;
 		
@@ -65,7 +66,7 @@ header {
 	}
 	& img {
 		float: left;
-	}
+		}
 }
 
 /* the styles for the main content */
