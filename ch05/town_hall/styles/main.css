@@ -69,12 +69,7 @@ header {
 
 	
 		}
-		blockquote {
-			font-style: italic;
-			font-size: 110%;
-			padding: .5em;
-			
-		}
+	
 }
 
 /* the styles for the main content */
@@ -86,6 +81,11 @@ main {
 	img { border: double 4px var(--accent-color);
 		
 	}
+	blockquote {
+		font-style: italic;
+		font-size: 110%;
+		padding: .5em;
+		
 }
 
 /* the styles for the footer */
