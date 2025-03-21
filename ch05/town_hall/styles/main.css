@@ -66,6 +66,7 @@ header {
 	}
 	& img {
 		float: left;
+	border: 4px double var(--accent-color);
 		}
 }
 
