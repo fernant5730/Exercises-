@@ -90,12 +90,13 @@ main {
 
 /* the styles for the footer */
 footer { background-color: var(--accent-color);
-	color: white;
+	
 	padding: .5em;
 	& p {
 		text-align: center;
 		padding-top: 1em;
 		padding-bottom: 1em;
+		color: white;
 
 	}
 }
