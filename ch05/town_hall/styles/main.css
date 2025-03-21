@@ -91,7 +91,7 @@ main blockquote {
 		text-align: center;
 footer {
 	background-color: var(--accent-color);
-	padding: .5em;
+	
 }
 footer p {
 	text-align: center;
